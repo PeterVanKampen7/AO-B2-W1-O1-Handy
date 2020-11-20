@@ -88,6 +88,7 @@ ul > li > a
 #overOns:hover .subMenu
 {
 	display: block;
+	transition: 0.5s ease;
 }
 
 .headerImg
@@ -136,6 +137,7 @@ ul > li > a
 #banner1:hover ~ .banner1Link
 {
 	display: block;
+	transition: 0.5s ease;
 }
 
 .bannerDiv a
@@ -160,6 +162,7 @@ ul > li > a
 #banner2:hover ~ .banner2Link
 {
 	display: block;
+	transition: 0.5s ease;
 }
 
 .banner3Link
@@ -177,6 +180,7 @@ ul > li > a
 #banner3:hover ~ .banner3Link
 {
 	display: block;
+	transition: 0.5s ease;
 }
 
 .ribbon
@@ -220,6 +224,7 @@ ul > li > a
 {
 	color: white;
 	background-color: #aeb6be;
+	transition: 0.5s ease;
 }
 
 .imageFooter
@@ -251,11 +256,13 @@ ul > li > a
 .button:hover
 {
 	background-color: #222931;
+	transition: 0.5s ease;
 }
 
 .button:hover a
 {
 	color: white;
+	transition: 0.5s ease;
 }
 
 .button a
@@ -351,4 +358,83 @@ hr
 	text-align: right;
 	line-height: 60px;
 	color: white;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.dienstenText
+{
+	
+}
+
+.smallText
+{
+	position: relative;
+	top: 20px;
+	font-size: 10px;
+}
+
+.dienstenText h2
+{
+	position: relative;
+	top: 40px;
+	font-size: 34px;
+	font-weight: 600;
+}
+
+.dienstenText p
+{
+	position: relative;
+	top: 55px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	display: inline;
+}
+
+.smallText
+{
+	position: relative;
+	top: 20px;
+	font-size: 12px;
+	font-weight: 400px;
+}
+
+.hoverText
+{
+	position: relative;
+	color: #ffe718;
+	display: inline;
+}
+
+.nieuwbouw:hover .tooltip
+{
+	display: block;
+	transition: 0.5s ease;
+}
+
+.advies:hover .tooltip
+{
+	display: block;
+	transition: 0.5s ease;
+}
+
+.regelgeving:hover .tooltip
+{
+	display: block;
+	transition: 0.5s ease;
+}
+
+.tooltip
+{
+	display: none;
+	position: absolute;
+	top: 75px;
+	left: 0;
+	width: 200px;
+	background-color: #aeb6be;
+	color: white;
+	z-index: 1;
+	font-size: 14px;
+	padding: 5px;
 }
