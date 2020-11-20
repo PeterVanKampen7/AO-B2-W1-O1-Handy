@@ -234,3 +234,121 @@ ul > li > a
 	width: 100%;
 	height: 220px;
 }
+
+.button
+{
+	position: relative;
+	top: 145px;
+	display: inline-block;
+	margin: 12px;
+	width: 300px;
+	height: 100px;
+	background-color: #ffe718;
+	color: #222931;
+	text-decoration: none;
+}
+
+.button:hover
+{
+	background-color: #222931;
+}
+
+.button:hover a
+{
+	color: white;
+}
+
+.button a
+{
+	color: #222931;
+}
+
+.button i
+{
+	position: absolute;
+	left: 25px;
+	line-height: 100px;
+	font-size: 60px;
+}
+
+.button h2
+{
+	position: absolute;
+	left: 120px;
+	top: -15px;
+	line-height: 100px;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.button p
+{
+	position: absolute;
+	left: 120px;
+	top: 15px;
+	line-height: 100px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+hr
+{
+	position: relative;
+	top: 200px;
+	color: black;
+}
+
+.text
+{
+	position: relative;
+	top: 300px;
+}
+
+.text h2
+{
+	margin-bottom: 50px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.text p
+{
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+}
+
+.text i
+{
+	font-size: 25px;
+	color: #aeb6be;
+}
+
+.overOnsText
+{
+	position: absolute;
+	width: 550px;
+}
+
+.contact
+{
+	position: absolute;
+	left: 680px;
+	width: 150px;
+}
+
+.credit
+{
+	width: 100%;
+	height: 60px;
+	background-color: #222931;
+	position: relative;
+	top: 550px;
+}
+
+.credit p
+{
+	text-align: right;
+	line-height: 60px;
+	color: white;
+}
